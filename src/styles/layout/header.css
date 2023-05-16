@@ -1,0 +1,15 @@
+.header {
+  position: sticky;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--text-color-secondary);
+}
+
+.header__link {
+  color: var(--text-color-secondary);
+}
+
+.header__link:active {
+  var(--text-bolder);
+  color: var(--text-color-main);
+}

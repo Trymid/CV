@@ -1,0 +1,15 @@
+:root {
+  --text-normal: {
+    font-weight: 400;
+    font-size: 150%;
+    line-height: 1.75;
+    /*color: var(--text-color-secondary);*/
+  };
+
+  --text-bolder: {
+    font-weight: 500;
+    font-size: 150%;
+    line-height: 1.75;
+    /*color: var(--text-color-main);*/
+  };
+}
