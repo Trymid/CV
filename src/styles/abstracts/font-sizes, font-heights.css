@@ -1,0 +1,17 @@
+:root {
+  /*#########################################
+              || FONT SIZE - PERCENTS
+  ##########################################*/
+  --base-font-size: 16;
+  --font-size-22px: calc(22 * 100 / var(--base-font-size) * 1%);
+  --font-size-24px: calc(24 * 100 / var(--base-font-size) * 1%);
+  --font-size-56px: calc(56 * 100 / var(--base-font-size) * 1%);
+
+
+  /*#########################################
+                || LINE HEIGHT - NUMBERS
+    ##########################################*/
+  --line-height-26px: calc(26 / 22);
+  --line-height-28px: calc(28 / 24);
+  --line-height-66px: calc(66 / 56);
+}

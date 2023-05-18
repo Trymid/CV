@@ -1,0 +1,9 @@
+.button {
+  box-sizing: border-box;
+  cursor: pointer;
+  min-width: 185px;
+  padding: 14px 20px;
+  color: var(--general-white);
+  background-color: var(--accent-blue);
+  text-align: center;
+}

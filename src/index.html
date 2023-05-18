@@ -2,54 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="styles/general.css">
   <title>CV</title>
 </head>
 <body>
   <div class="common">
-    <header class="container header">
-      <nav>
-        <ul class="list navigation">
-          <li class="list__item"><a href="#" class="link header__link">About</a></li>
-          <li class="list__item"><a href="#" class="link header__link">Skills</a></li>
-          <li class="list__item"><a href="#" class="link header__link">Experience</a></li>
-          <li class="list__item"><a href="#" class="link header__link">Projects</a></li>
-          <li class="list__item"><a href="#" class="link header__link">Education</a></li>
-          <li class="list__item"><a href="#" class="link header__link">Languages</a></li>
-          <li class="list__item"><a href="#" class="link header__link">Contact me</a></li>
-        </ul>
-      </nav>
+    <header>
+      <div class="container header">
+        <nav>
+          <ul class="list header__navigation">
+            <li class="list__item">
+              <a href="#about" class="link header__link header__link--active font-bolder">About</a>
+            </li>
 
-      <p>HELLO Dmitry asdfasdf sa</p>
+            <li class="list__item">
+              <a href="#skills" class="link header__link font-normal">Skills</a>
+            </li>
+
+            <li class="list__item">
+              <a href="#experience" class="link header__link font-normal">Experience</a>
+            </li>
+
+            <li class="list__item">
+              <a href="#projects" class="link header__link font-normal">Projects</a>
+            </li>
+
+            <li class="list__item">
+              <a href="#education" class="link header__link font-normal">Education</a>
+            </li>
+
+            <li class="list__item">
+              <a href="#languages" class="link header__link font-normal">Languages</a>
+            </li>
+
+            <li class="list__item">
+              <a href="#contact" class="link header__link font-normal">Contact me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="main">
-      <section class="container about">
+      <section>
+        <div class="container about">
+          <div class="about__section">
+            <div class="about__description">
+              <h2 id="about" class="font-title container-title about__title">Sergei Alyoshin
+                <span class="about__subtitle">Front-end developer</span>
+              </h2>
 
+              <p class="font-text about__text">
+                Hi, I am Sergei Alyoshin and I am Junior Front-end developer.
+              </p>
+
+              <p class="font-text about__text">
+                I have completed Front-end courses at IT School Intellect Fox and have basic knowledge of HTML, CSS, JavaScript, React and Redux.
+              </p>
+            </div>
+
+            <div class="about__buttons-bar">
+              <button class="button font-bolder">Download CV</button>
+              <button class="button font-bolder">Contact me</button>
+            </div>
+          </div>
+
+          <div class="about__image">
+            <img src="./images/content/photo.jpg" alt="Photo of resume owner" class="about__photo">
+          </div>
+        </div>
       </section>
 
-      <section class="container skills">
-
+      <section>
+        <div class="container skills">
+          <h2 id="skills" class="font-title container__title">Skills</h2>
+        </div>
       </section>
 
-      <section class="container experience">
-
+      <section>
+        <div class="container experience">
+          <h2 id="experience" class="font-title container__title">Experience</h2>
+        </div>
       </section>
 
-      <section class="container projects">
-
+      <section>
+        <div class="container projects">
+          <h2 id="projects" class="font-title container__title">Projects</h2>
+        </div>
       </section>
 
-      <section class="container education">
-
+      <section>
+        <div class="container education">
+          <h2 id="education" class="font-title container__title">Education</h2>
+        </div>
       </section>
 
-      <section class="container languages">
-
+      <section>
+        <div class="container languages">
+          <h2 id="languages" class="font-title container__title">Languages</h2>
+        </div>
       </section>
 
-      <section class="container contacts">
-
+      <section>
+        <div class="container contacts">
+          <h2 id="contact" class="font-title container__title">Contact me</h2>
+        </div>
       </section>
     </main>
   </div>

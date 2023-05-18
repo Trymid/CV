@@ -1,15 +1,39 @@
 .header {
-  position: sticky;
+  position: relative;
   padding-top: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid var(--text-color-secondary);
+  padding-bottom: 42px;
+  /*border-bottom: 2px solid var(--text-color-secondary);*/
+}
+
+.header::after {
+  position: absolute;
+  content: '';
+  left: 104px;
+  right: 104px;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--text-color-secondary);
+}
+
+.header__navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around;
+  align-items: center;
+  /*margin-bottom: 40px;*/
 }
 
 .header__link {
   color: var(--text-color-secondary);
 }
 
-.header__link:active {
-  var(--text-bolder);
+.header__link--active {
+  text-decoration-line: line-through;
   color: var(--text-color-main);
 }
+
+/*.header__link:focus {*/
+/*  text-decoration-line: line-through;*/
+/*  color: var(--text-color-main);*/
+/*}*/

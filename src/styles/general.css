@@ -1,18 +1,18 @@
 @import 'abstracts/colors.css';
-@import 'abstracts/text-mixins.css';
+@import 'abstracts/font-mixins.css';
+@import 'abstracts/font-sizes, font-heights.css';
 
 
+@import 'base/button-reset.css';
 @import 'base/common.css';
 @import 'base/reset.css';
 @import 'base/roboto-font.css';
 
 
 @import 'components/button.css';
-@import 'components/button-reset.css';
 @import 'components/container.css';
 
 
-
+@import 'layout/about.css';
 @import 'layout/header.css';
 @import 'layout/main.css';
-@import 'layout/wrapper.css';

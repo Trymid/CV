@@ -1,5 +1,11 @@
 .container {
-  position: relative;
+  /*position: relative;*/
   max-width: 1440px;
-  margin: 72px 7.22%;
+  padding: 72px 104px;
+  margin: 0 auto;
+}
+
+.container__title {
+  color: var(--text-color-main);
+  margin-bottom: 56px;
 }
